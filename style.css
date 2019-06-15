@@ -1,0 +1,277 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	background-color: rgb(25, 25, 25);
+}
+
+
+.container
+{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}
+
+.container .box
+{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 55px);
+	background: rgb(55, 25, 25);
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+
+}
+
+.container .box .icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.container .box:hover .icon
+{
+	
+	
+	height: 80px;
+	
+
+}
+.icon_download
+{
+	
+	width: 100px;
+	height: 100px;
+}
+
+.container .box img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+	color: #fff;
+}
+.container .box:hover img
+{
+	font-size: 40px;
+}
+.container .box .content
+{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+.container .box:hover .content
+{
+	top: 100px;
+	opacity: 1;
+}
+.container .box .content h3
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+}
+.container .box .content p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.container .box:nth-child(1) .icon
+{
+	background-image: url("Icons/Orion.png");
+}
+.container .box:nth-child(1) 
+{
+	background: #4caf50;
+}
+.container .box:nth-child(2) .icon
+{
+	background-image: url("Icons/M101.jpg");
+}
+.container .box:nth-child(2) 
+{
+	background: #162359;
+}
+.container .box:nth-child(3) .icon
+{
+	background-image: url("Icons/Lune.jpg");
+}
+.container .box:nth-child(3) 
+{
+	background: #591616;
+}
+section
+{
+	
+	height: 100vh;
+	
+	justify-content: center;
+	align-items: center;
+
+}
+section:nth-child(odd)
+{
+	background: rgb(25, 25, 25);
+}
+section p 
+{
+	color: white;
+}
+section h3 
+{
+	color: white;
+}
+.gotop
+{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	
+	bottom: 40px;
+	right: 50px;
+
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+
+	color: white;
+	font-size: 22px;
+}
+section div img 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+section div a
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.container .box2
+{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: rgb(55, 25, 25);
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container .box2 .icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.container .box2:hover .icon
+{
+	top: 20px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+.container .box2 img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+	color: #fff;
+}
+.container .box2:hover img
+{
+	font-size: 40px;
+}
+.container .box2 .content
+{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+.container .box2:hover .content
+{
+	top: 100px;
+	opacity: 1;
+}
+.container .box2 .content h3
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+}
+.container .box2 .content p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.container .box2:nth-child(1) .icon
+{
+	background: #38deea;
+}
+.container .box2:nth-child(1) 
+{
+	background: #38A1F3;
+}
+.container .box2:nth-child(2) .icon
+{
+	background: #738ADB;
+}
+.container .box2:nth-child(2) 
+{
+	background: #5f76c7;
+}
+.container .box2:nth-child(3) .icon
+{
+	background: #4f0c0c;
+}
+.container .box2:nth-child(3) 
+{
+	background: #591616;
+}
