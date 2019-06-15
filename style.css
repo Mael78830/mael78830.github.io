@@ -7,7 +7,31 @@ body
 	background-color: rgb(25, 25, 25);
 }
 
-
+.icon-bar
+{
+	width: 100%;
+	height: 80%
+	background-color: #555;
+	overflow: auto;
+}
+.icon-bar a 
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 12px 0;
+	transition: background-color 1s;
+	color: white;
+	font-size: 36px;
+}
+.icon-bar a:hover
+{
+	background-color: rgb(35, 35, 35);
+}
+.active
+{
+	background-color: #B83334;
+}
 .container
 {
 	position: relative;
