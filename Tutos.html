@@ -14,6 +14,61 @@
 		<a href="Placeholder.html">Placeholder</a>
 		
 	</div>
+
+	<div class="containertuto"> <!--Texte expliquant le principe du jeu-->
+		<a href=#Ekos class="box">
+			
+			<div class="icon"><img class="icon_download" src="Icons/Blank.png"></div>
+			<div class="content">
+				<h3>Ekos</h3>
+				<p style="text-align: center;">Tutoriel pour contrôler son Reflex depuis son ordinateur grâce à Kstars / Ekos.</p>
+			</div>
+			</a>
+	</div>
+	<section></section>
+	<section id="Ekos">
+		<p style="font-size: 24px;">Ce tutoriel est utile à toute personne possédant un ordinateur sous ubuntu, avec un apn.</p>
+		<h2 style="color: red; margin-top: 50px; text-align: center;">IMPORTANT : Suivez bien tout le tutoriel en entier pour l'installation de kstars pour ne pas avoir de soucis par la suite.</h2>
+
+		<p style="color: #00bfff;">1ère partie : Installation de kstars</p>
+		<p style="color: white;">Pour commencer, on va installer kstars. <br>Ouvrez un terminal puis entrez cette commande ( Ctrl + Shift + V pour coller dans le terminal ) : "sudo apt-add-rep﻿ository ppa:mutlaqja/ppa"﻿ <br>Puis :<br></p>
+		<ul style="color: white;">
+			<li>"sudo apt-get update"</li>
+			<li>"sudo apt-get install -y kstars-bleeding-dbg indi-dbg"</li>
+			<li>"sudo apt-get install gsc"</li>
+			<li>"sudo add-apt-repository -y ppa:mutlaqja/libgphoto2"</li>
+			<li>﻿"sudo apt-get -y install libgphoto2-6 libgphoto2-dev libgphoto2-l10n libgphoto2-l10n libgphoto2-port12"﻿</li>
+			<li>"sudo apt install astrome﻿try.net"﻿</li>
+		</ul>
+		<p style="color: white;">Vous avez maintenant fini d'installer kstars ! On passe à la suite !</p>
+
+		<p style="color: #00bfff;">2ème partie : Création d'un profil Ekos, et APN</p>
+
+		<p style="color: white;">Pour commencer, lancez kstars</p>
+		<p style="color: white;">Vous arrivez donc sur cette fenêtre :<br> <img class="img_center" src="Tuto/1.png"></p>
+		<p>Si c'est le cas, ouvre le menu outil en haut à gauche, puis séléctionnez "Ekos" : <br><img class="img_center" src="Tuto/2.png"></p>
+		<p>Vous arrivez donc sur cette page :<br><img class="img_center" src="Tuto/3.png"></p>
+		<p>Il faut ensuite cliquer sur la petite croix pour ajouter un profil ( entourée en rouge ) <br> Nous voilà sur l'éditeur de profil ! <br><img class="img_center" src="Tuto/4.png"></p>
+		<p>Sélectionnez CCD puis cliquez sur Canon DSLR<br><img class="img_center" src="Tuto/5.png"></p>
+		<p>Vous pouvez maintenant enregistrer le profil. <br> Et avant de passer à la suite, ouvrez Fichiers, puis éjectez l'appareil photo, sans le débrancher ! C'est pour qu'il ne soit plus reconnu en tant que lecteur, mais en tant qu'appareil ! <img src="Tuto/6.png"> </p>
+		
+		<p style="color: #00bfff;">3ème partie : Utilisation de Ekos pour contrôler l'APN ( Attention c'est long ! )</p>
+		<p>Pour commencer, une fois votre profil fait, votre apn branché, enfin bref toute l'étape 2 de faite, lancez Ekos : <br><img class="img_center" src="Tuto/7.png"></p>
+		<p>Si vous avez des erreurs, vérifiez si les 2 premières étapes ont bien été réalisées. <br> Une fois tout ceci lancé, vous obtenez ça : <br><img class="img_center" src="Tuto/8.png"></p>
+		<p>Vous pouvez fermer cette première fenêtre, revenons sur Ekos. <br>Allez maintenant dans la section appareil photo : <br> <img class="img_center" src="Tuto/9.png"></p>
+		<p>Vous voilà sur une fenêtre pleine d'options ! Toutes aussi utiles les unes que les autres ! <br> <img class="img_center" src="Tuto/10.png"></p>
+		<p>On va commencer par le commencement ! <br> Premièrement, pour lancer le live view et faire votre mise au point, cliquez sur ce bouton : <br> <img class="img_center" src="Tuto/11.png"></p>
+		<p>Le﻿ live view est désormais actif ! Je vais le refermer car nous n'en avons pas be﻿soin ici, mais pour faire la map ou autre, il est très pratique de l'avoir sur grand écran.﻿<br>Par là, ce sont tout les paramètres d'expositions, d'iso, le délai entre chaque pose, le total de poses et le format ( FITS ou RAW ) : <br> <img class="img_center" src="Tuto/12.png"></p>
+		<p>A droite, ce sont les séquences, vous pouvez en ajouter autant que vous le souhaitez, dans l'exemple ci dessous, j'en ai mis une seule qui va faire 30 poses de 10 secondes à 800 iso.<br>Pour ajouter une séquence, il suffit de cliquer sur la croix encadrée en rouge. <br><img class="img_center" src="Tuto/13.png"> </p>
+		<p>Pour définir où vont partir les photos : <br> <img class="img_center" src="Tuto/14.png"></p>
+		<p>Avant dernier point, pour changer de type de prise, "Light Dark Flat ou Offset" il faut cliquer ici : <br> <img class="img_center" src="Tuto/15.png"><br>De sorte à ce que les fichiers aillent dans les bons dossiers et aient les bon noms.</p>
+		<p>Pour finir il ne vous reste plus qu'a lancer votre séquence ! <br><img class="img_center" src="Tuto/16.png"></p>
+
+
+
+
+	
+	</section>
 	<a class="gotop" href="#"><img src="Icons/gotop.png" width="50" height="50"></a>
 
 </body>

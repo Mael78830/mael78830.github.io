@@ -171,13 +171,20 @@ section h3
 	color: white;
 	text-align: center;
 }
-section img 
+.img_center_resize
 {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
 	width: 750px;
 	height: 500px;
+}
+.img_center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .gotop
 {
@@ -228,4 +235,119 @@ div img
 div li
 {
 	color: white;
+}
+p
+{
+	color: white;
+}
+.containertuto
+{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}
+
+.containertuto .box
+{
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 55px);
+	background: rgb(55, 25, 25);
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+
+}
+
+.containertuto .box .icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.containertuto .box:hover .icon
+{
+	
+	
+	height: 80px;
+	
+
+}
+
+.containertuto .box img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.5s;
+	color: #fff;
+}
+.containertuto .box:hover img
+{
+	font-size: 40px;
+}
+.containertuto .box .content
+{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+.containertuto .box:hover .content
+{
+	top: 100px;
+	opacity: 1;
+}
+.containertuto .box .content h3
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+.containertuto .box .content p
+{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+.containertuto .box:nth-child(1) .icon
+{
+	background-image: url("Tuto/Kstars.png");
+	
+}
+.containertuto .box:nth-child(1) 
+{
+	background: #073077;
+}
+.containertuto .box:nth-child(2) .icon
+{
+	background-image: url("Icons/M101.jpg");
+}
+.containertuto .box:nth-child(2) 
+{
+	background: #162359;
+}
+.containertuto .box:nth-child(3) .icon
+{
+	background-image: url("Icons/Lune.jpg");
+}
+.containertuto .box:nth-child(3) 
+{
+	background: #591616;
 }
